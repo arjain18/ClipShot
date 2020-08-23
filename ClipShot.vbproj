@@ -48,7 +48,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Hopstarter-Sleek-Xp-Software-Notepad.ico</ApplicationIcon>
+    <ApplicationIcon>Notepad.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -129,6 +129,7 @@
   <ItemGroup>
     <Content Include="Ampeross-Qetto-2-Photos.ico" />
     <Content Include="Hopstarter-Sleek-Xp-Software-Notepad.ico" />
+    <Content Include="Notepad.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -91,6 +91,7 @@ Partial Class ClipShot
         Me.Location = New System.Drawing.Point(100, 0)
         Me.Name = "ClipShot"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
+        Me.TopMost = True
         CType(Me.ClipBoard, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Screenshot, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.eExit, System.ComponentModel.ISupportInitialize).EndInit()
